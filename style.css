@@ -1,0 +1,183 @@
+/*GENERAL CSS*/
+body{
+	font-size: 16px;
+	margin: 0px;
+
+}
+#nav{
+	background-color: #C86F9E;
+	margin: 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+#nav-list{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#nav-list li{
+	/*float: left;*/
+	display: inline-block;
+	margin-right: 10px;
+	transition: background-color 0.3;
+
+}
+#nav-list li:hover{
+	background-color: #fff;
+}
+li, a{
+	Display: Block;
+}
+a{
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
+#social-links{
+	display: flex;
+}
+#social-links li{
+	margin-right: 10px;
+}
+#image{
+	background-image: url(11.jpg);
+	background-size: cover;
+	background-position: center center;
+	padding-top: 300px;
+	padding-bottom: 300px;
+}
+
+#image h1{
+	color: blue;
+}
+#image p{
+	color: blue;
+}
+
+#projects{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px 40px 0px 40px;
+}
+
+#title{
+	text-align: center;
+}
+.websites{
+	margin-right: 80px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.damn img{
+	transition: transform 0.6s;
+	border-radius: 50%;
+}
+
+.damn img:hover{
+	transform: scale(1.1);
+}
+#testimonials{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px 40px 0px 40px;
+}
+
+#title{
+	text-align: center;
+}
+
+.damn{
+	margin-right: 200px;
+	margin-bottom: 40px;
+	text-align: center;
+	
+}
+
+img{
+	box-shadow: 10px 10px 8px 10px #888888;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "montserrat",sans-serif;
+	box-sizing: border-box;
+}
+
+.testimonial-section{
+	background: #3498db;
+	padding: 40px 0;
+}
+
+.inner-width{
+	max-width: 1200px;
+	margin: auto;
+	padding: 0 20px;
+}
+
+.testimonial-section h1{
+	text-align: center;
+	color: #333;
+	font-size: 24px;
+}
+.border{
+	width: 100px;
+	height: 5px;
+	background: #333;
+	margin: 40px auto;
+}
+.testimonial{
+	background: #f1f1f1;
+	padding: 40px;
+	overflow: hidden;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.text-info{
+	display: flex;
+	height: 60px;
+	align-items: center;
+}
+
+.test-pic{
+	width: 50px !important;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+.test-name{
+	font-size: 12px;
+	color: #333;
+}
+.test-name span{
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	color: #3498db;
+}
+
+.testimonial p{
+	font-size: 12px;
+	line-height: 22px;
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 700px){
+	#nav{
+		flex-direction: column;
+		align-items: center; 
+	}
+
+#nav ul{
+	flex-direction: column; 
+}
+
+#nav #social-links{
+	order: 1;
+}
+}
+
